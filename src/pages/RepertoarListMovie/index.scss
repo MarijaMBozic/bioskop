@@ -1,0 +1,51 @@
+$button-color: rgb(172, 148, 148);
+$text-color:wheat;
+$bgcolor:rgb(102, 97, 97);
+$bgcolordetails:rgb(91, 78, 102);
+
+.listRepertoar-item
+{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 100%;    
+    background-color:$bgcolor;
+    color: $text-color;
+    font-weight: 500;
+    height: 650px;
+    }
+
+  .h3-item{    
+      width: 100%;
+      text-align: center;
+      border-bottom:2px solid $text-color ;
+  }
+    .repertoar-itemList{           
+       padding-top: 20px;
+        background-color:$bgcolor;
+        list-style: none;
+        a{ 
+            display: flex;           
+            height: 40px;
+            width: 280px;
+            color: $text-color;
+            text-decoration: none;        
+            border-bottom: 2px solid $text-color;
+            padding-top:15px;
+            margin: 0px;
+            text-align: center;
+        }
+    }
+    
+    a:hover{
+        color:rgb(108, 101, 114) ;
+        background-color: $text-color ;
+    }
+    .list-item{
+        background-color: rgb(91, 78, 102);  
+        color: $text-color;
+    }
+
+
+
+

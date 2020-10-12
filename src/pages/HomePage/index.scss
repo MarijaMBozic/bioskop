@@ -1,0 +1,31 @@
+
+.homepage-item{
+    height: 650px;
+    width: 100%;
+    background-color: black;
+    background-image: url("./../../image/bgHomePageImg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+}
+
+.homepage-h1{
+    width: 40%;
+    height: 10%;
+    font-weight: bold;;
+    background-color: rgba(146, 151, 135, 0.2);
+    float: right;
+    margin-top: 30%;
+    margin-right:30%;
+    padding:10px;
+}
+
+.h1-itemhome{
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    margin-top: 0;
+    color: #d4caca;   
+    border-top:2px solid #d4caca;
+    border-bottom:2px solid #d4caca ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

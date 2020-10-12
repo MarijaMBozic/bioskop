@@ -1,0 +1,32 @@
+.aboutUs-item{
+    height: 650px;
+    width: 100%;
+    background-color: black;
+    background-image: url("./../../image/bgHomePageImg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 500px;   
+}
+
+.aboutUsText-item{
+    width: 40%;
+    height: 70%;
+    font-weight: bold;;
+    background-color: rgba(146, 151, 135, 0.6);
+    float: right;
+    margin-top: 5%;
+    margin-right:30%;
+    padding:20px;
+}
+
+.aboutUs-h1{
+    text-align: right;
+    font-weight: bolder;
+    margin-top: 0;
+    color: black;
+}
+
+.aboutUs-p{
+    text-align: right;
+    color: black;
+    font-weight: bolder;
+}

@@ -1,0 +1,54 @@
+$button-color: rgb(172, 148, 148);
+$text-color:wheat;
+$bgcolor:rgb(102, 97, 97);
+$bgcolordetails:rgb(91, 78, 102);
+
+.repertoar-item
+{
+    display: flex;
+    width: 100%;    
+    background-color:$bgcolor;
+    color: $text-color;
+    font-weight: 500;
+    text-align: center;
+   
+    .repertoarlist-item{     
+  
+        width: 20%;
+        height: 650px;
+        margin: 0px;
+        background-color:$bgcolor;
+        color: $text-color;
+        padding: 0px;
+        border-right:2px solid $text-color;
+
+        a{
+            display:flex;
+            height: 40px;
+            width: 300px;
+            color: $text-color;
+            text-decoration: none;
+            border-top: 2px solid $text-color;
+            border-bottom: 2px solid $text-color;
+            padding-top:15px;
+            margin: 0px;
+        }
+        a:hover{
+            color:rgb(108, 101, 114) ;
+            background-color: $text-color ;
+        }
+
+        .movielist-item{
+            background-color: rgb(91, 78, 102);  
+            color: $text-color;
+        }
+    }
+
+    .repertoardetails-item{     
+        height: 650px;       
+        background-color:$bgcolordetails; 
+               
+    } 
+}
+
+
